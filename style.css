@@ -1,6 +1,5 @@
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,8 +12,14 @@ body {
     align-items: center;
     background: #ebe7e7;
 }
-
+.content p {
+    padding: 5px 0;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    
+}
 .container {
+    margin-bottom: 40rem;
     width: 640px;
     background: #ffffff;
     overflow: hidden;
@@ -28,6 +33,10 @@ body {
 
 .text-logo {
     margin-left: -32rem;
+}
+
+.fa-ellipsis-v {
+    font-size: 1.5rem;
 }
 
 .top-bar {
@@ -58,16 +67,19 @@ body {
 .footer {
     padding-left: 16px;
     padding-right: 16px;
+    
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
-
+.left-side {
+    padding: 0;
+}
 
 
 .likes {
@@ -75,7 +87,5 @@ body {
     padding-top: 15px;
 }
 
-.content p {
-    padding: 5px 0;
-    padding-top: 15px;
-}
+
+
